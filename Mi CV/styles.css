@@ -18,13 +18,19 @@ header {
     text-align: center;
 }
     
+.experience h3{
+    color: #161677;
+}
 
+.experience ::-webkit-progress-inner-element{
+    font-family: cursive;
+}
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #3d3c3c;
 }
 
 nav ul li {
@@ -40,7 +46,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #161677;
+    background-color: #161677
 }
 
 main {
