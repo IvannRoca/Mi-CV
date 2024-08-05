@@ -5,7 +5,14 @@ body {
     padding: 0;
 }
 body {
-    background-color: rgb(215, 209, 209);
+    background-color: white;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    /* min-height: 100vh; */
+}
+.main {
+    display: flex;
+    
 }
 
 header .image-profile {
@@ -17,9 +24,29 @@ header {
     padding: 20px;
     text-align: center;
 }
+
+.profile-description p{
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.skills{
+    display: flex;
+    flex-direction: column;
+     padding-left: 90px;
     
+}
+
+
+.experience{
+    float: left;
+    
+    
+}
+
 .experience h3{
     color: #161677;
+
 }
 
 .experience ::-webkit-progress-inner-element{
@@ -59,8 +86,9 @@ section {
 
 footer {
     background-color: #161677;
-    background-color: ;
     color: white;
     text-align: center;
     padding: 10px 0;
+
 }
+
